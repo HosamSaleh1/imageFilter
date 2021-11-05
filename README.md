@@ -1,5 +1,8 @@
 # Udagram Image Filtering Microservice
 
+https://github.com/HosamSaleh1/imageFilter.git
+with two branches dev & master
+
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into three parts: and all three parts have been uploaded to the aws EB cloud:
@@ -32,9 +35,12 @@ We've included a few helper functions to handle some of these concepts and we're
 import {filterImageFromURL, deleteLocalFiles} from './util/util';
 Done```
 
+Starting the server with npm run dev runs a local instance of the server with no errors
+Done
+
 @TODO1 endpoint in src/server.ts is completed and accepts valid requests including:
 http://localhost:{{PORT}}/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
-
+Done
 
 ### Deploying your system
 
